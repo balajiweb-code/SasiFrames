@@ -2044,3 +2044,48 @@ align-items: center;
     }
 }
 
+
+
+@media (max-width:768px){
+
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4{
+        width: 45%;
+        text-align: center;
+        padding: 20px 15px;
+    }
+
+    .card1-area,
+    .card2-area,
+    .card3-area,
+    .card4-area{
+        height: 35px;
+    }
+
+    .shipping,
+    .payment,
+    .returns,
+    .rating{
+        display: block;
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    .free,
+    .secure,
+    .easy,
+    .star{
+        font-size: 14px;
+        margin-top: 5px;
+    }
+}
