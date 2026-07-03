@@ -2000,5 +2000,47 @@ align-items: center;
     }
 }
 
+@media (max-width:768px){
 
+    .gift-area,
+    .memory-area,
+    .para-area,
+    .btns{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .gift{
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    .memory{
+        font-size: 38px;
+        line-height: 1.3;
+    }
+
+    .para{
+        width: 90%;
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .btns{
+        margin-top: 15px;
+    }
+
+    .btn,
+    .upload,
+    .whtsapp{
+        width: 220px;
+        height: 45px;
+        font-size: 15px;
+    }
+
+    .whatsapp-pic{
+        height: 18px;
+    }
+}
 
