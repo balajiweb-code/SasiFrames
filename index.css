@@ -1954,5 +1954,51 @@ align-items: center;
     }
 }
 
+@media (max-width:768px){
+
+    .theme-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        padding: 15px 10px;
+    }
+
+    .left-theme{
+        width: 100%;
+        text-align: center;
+    }
+
+    .sasi-logo{
+        font-size: 28px;
+    }
+
+    .right-theme{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .icon-box{
+        position: relative;
+    }
+
+    .whatsapp2,
+    .like,
+    .tote{
+        height: 24px;
+    }
+
+    .badge{
+        font-size: 11px;
+        width: 18px;
+        height: 18px;
+        line-height: 18px;
+    }
+}
+
 
 
