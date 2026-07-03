@@ -2089,3 +2089,468 @@ align-items: center;
         margin-top: 5px;
     }
 }
+
+
+@media (max-width:768px){
+
+    .category-container{
+        padding: 40px 20px;
+    }
+
+    .category-area{
+        text-align: center;
+    }
+
+    .category1{
+        font-size: 32px;
+        line-height: 1.4;
+    }
+
+    .category2{
+        font-size: 16px;
+        line-height: 1.6;
+        width: 90%;
+        margin: 10px auto 0;
+    }
+}
+
+@media (max-width:768px){
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .grid1,
+    .grid2,
+    .grid3,
+    .grid4,
+    .grid5,
+    .grid6,
+    .grid7,
+    .grid8,
+    .grid9,
+    .grid10,
+    .grid11,
+    .grid12,
+    .grid13,
+    .grid14,
+    .grid15,
+    .grid16,
+    .grid17{
+        width: 100%;
+        text-align: center;
+        padding: 20px 15px;
+    }
+
+    .frame1,
+    .light1,
+    .star1,
+    .moon1,
+    .mirror1,
+    .coffee1,
+    .sofa1,
+    .clock1,
+    .jewellery1,
+    .keychain1,
+    .identity,
+    .calendar,
+    .heart,
+    .envelope1,
+    .colored,
+    .paint{
+        height: 35px;
+    }
+
+    .frame,
+    .light,
+    .star,
+    .moon,
+    .mirror,
+    .coffee,
+    .sofa,
+    .clock,
+    .jewellery,
+    .keychain,
+    .identity-card,
+    .gifted,
+    .calendar1,
+    .heart-box,
+    .envelope,
+    .pencils,
+    .palette{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+}
+
+
+@media (max-width:768px){
+
+    .custom-services{
+        padding: 40px 20px;
+    }
+
+    .custom-area{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .tag{
+        font-size: 30px;
+        line-height: 1.4;
+    }
+
+    .tag1{
+        font-size: 16px;
+        line-height: 1.6;
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .sketch-blood{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .sketch-cards,
+    .blood-cards{
+        width: 90%;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .pic1,
+    .photo1{
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .pic-para,
+    .tag2{
+        font-size: 24px;
+        margin-top: 15px;
+    }
+
+    .para-pic,
+    .tag3{
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    .cash,
+    .price{
+        font-size: 22px;
+        margin: 15px 0;
+    }
+
+    .ul1,
+    .blood-cards ul{
+        text-align: left;
+        padding-left: 20px;
+        font-size: 15px;
+        line-height: 1.8;
+    }
+
+    .online,
+    .inquire{
+        width: 100%;
+        max-width: 280px;
+        height: 45px;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:768px){
+
+    .loved-section{
+        padding:40px 20px;
+    }
+
+    .heading-section{
+        text-align:center;
+        margin-bottom:30px;
+    }
+
+    .best-seller{
+        font-size:32px;
+        line-height:1.4;
+    }
+
+    .best-sell{
+        font-size:16px;
+        margin-top:10px;
+    }
+
+    .products-section{
+        display:grid;
+        grid-template-columns:repeat(2,1fr);
+        gap:20px;
+    }
+
+    .pencil-images,
+    .led-images,
+    .watch-images,
+    .headphone-images,
+    .mugs-images,
+    .wall-images,
+    .shoes-images,
+    .headset-images{
+        width:100%;
+        padding:15px;
+        text-align:center;
+    }
+
+    .pencil-area,
+    .led-area,
+    .watch-area,
+    .headphone-area,
+    .mugs-area,
+    .wall-area,
+    .shoe-area,
+    .headset-area{
+        width:100%;
+        height:auto;
+        border-radius:10px;
+    }
+
+    .buttons{
+        display:flex;
+        justify-content:center;
+        gap:10px;
+        margin-top:15px;
+    }
+
+    .pencil-btn,
+    .pencil-btn1,
+    .led-btn,
+    .led-btn1,
+    .watch-btn,
+    .watch-btn1,
+    .head-btn,
+    .head-btn1,
+    .mug-btn,
+    .mug-btn1,
+    .wall-btn,
+    .wall-btn1,
+    .shoe-btn,
+    .shoe-btn1,
+    .headphone-btn,
+    .headphone-btn1{
+        width:120px;
+        height:42px;
+        font-size:14px;
+    }
+
+    .view-section{
+        grid-column:1/3;
+        text-align:center;
+        margin-top:20px;
+    }
+
+    .all{
+        width:250px;
+        height:45px;
+        font-size:15px;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .another-section{
+        padding:40px 20px;
+    }
+
+    .design-section,
+    .design-area,
+    .choose-section{
+        text-align:center;
+    }
+
+    .design1{
+        font-size:16px;
+    }
+
+    .design2{
+        font-size:30px;
+        line-height:1.4;
+        margin-top:10px;
+    }
+
+    .design3{
+        width:90%;
+        margin:15px auto;
+        font-size:16px;
+        line-height:1.6;
+    }
+
+    .choose-section{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:10px;
+        margin:25px 0;
+    }
+
+    .circle{
+        width:40px;
+        height:40px;
+        line-height:40px;
+        font-size:18px;
+    }
+
+    .choose1{
+        font-size:18px;
+    }
+
+    .grid-part{
+        display:grid;
+        grid-template-columns:repeat(2,1fr);
+        gap:20px;
+    }
+
+    .grid101,
+    .grid22,
+    .grid33,
+    .grid44,
+    .grid55,
+    .grid66,
+    .grid77,
+    .grid88,
+    .grid99,
+    .grid100,
+    .grid111,
+    .grid122,
+    .grid133,
+    .grid144,
+    .grid155,
+    .grid166,
+    .grid177{
+        width:100%;
+        text-align:center;
+        padding:18px;
+    }
+
+    .frame11,
+    .light11,
+    .star11,
+    .moon11,
+    .mirror11,
+    .coffee11,
+    .sofa11,
+    .clock11,
+    .jewellery11,
+    .keychain11,
+    .identity11,
+    .gift11,
+    .calendar11,
+    .heart11,
+    .envelope11,
+    .colored11,
+    .paint11{
+        height:35px;
+    }
+
+    .frame22,
+    .light22,
+    .star22,
+    .moon22,
+    .mirror22,
+    .coffee22,
+    .sofa22,
+    .clock22,
+    .jewellery22,
+    .keychain22,
+    .identity22,
+    .gift22,
+    .calendar22,
+    .heart22,
+    .envelope22,
+    .pencils22,
+    .palette22{
+        font-size:15px;
+        margin-top:10px;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .premium-section{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+        padding:40px 20px;
+        gap:25px;
+    }
+
+    .premium,
+    .special,
+    .numbers,
+    .grab{
+        width:100%;
+    }
+
+    .cafe-img{
+        width:100%;
+        max-width:450px;
+        height:auto;
+        border-radius:10px;
+    }
+
+    .special-offer{
+        font-size:18px;
+    }
+
+    .premium-led{
+        font-size:32px;
+        margin-top:10px;
+    }
+
+    .occasion{
+        width:90%;
+        margin:15px auto;
+        font-size:16px;
+        line-height:1.7;
+    }
+
+    .rate{
+        font-size:28px;
+    }
+
+    .selling-items{
+        font-size:16px;
+        margin-top:12px;
+    }
+
+    .numbers{
+        display:flex;
+        justify-content:center;
+        gap:20px;
+        flex-wrap:wrap;
+    }
+
+    .hr,
+    .min,
+    .sec{
+        width:120px;
+        padding:12px;
+        text-align:center;
+        font-size:15px;
+    }
+
+    .this-deal{
+        width:250px;
+        height:45px;
+        font-size:16px;
+    }
+
+}
