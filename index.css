@@ -1907,7 +1907,52 @@ align-items: center;
     height:200px;
     width:180px;
 }
-    
+
+@media (max-width:768px){
+
+    .header{
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+        gap: 10px;
+    }
+
+    .c12,
+    .c21{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .ph-area,
+    .time,
+    .insta,
+    .whatsapp,
+    .order-area{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .ph-link,
+    .time-span,
+    .insta-link,
+    .whatsapp-link,
+    .order-link{
+        font-size: 13px;
+    }
+
+    .ph-img,
+    .time-img,
+    .insta-img,
+    .whatsapp-img,
+    .order-img{
+        height: 18px;
+    }
+}
 
 
 
