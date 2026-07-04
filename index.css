@@ -1483,16 +1483,11 @@
     opacity:1;
     transform:translateY(0);
 }
-    
-/* ===========================
-   Mobile Responsive (Phones)
-   =========================== */
-@media (max-width: 768px) {
+
+@media (max-width:480px){
 
     .header{
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
         height: auto;
         padding: 10px 0;
         gap: 10px;
@@ -1502,9 +1497,10 @@
     .c21{
         width: 100%;
         display: flex;
-        flex-direction: column;
+        justify-content: center;
         align-items: center;
-        gap: 10px;
+        flex-wrap: wrap;
+        gap: 15px;
     }
 
     .ph-area,
@@ -1514,9 +1510,7 @@
     .order-area{
         display: flex;
         align-items: center;
-        justify-content: center;
-        gap: 8px;
-        flex-wrap: wrap;
+        gap: 5px;
     }
 
     .ph-link,
@@ -1524,8 +1518,7 @@
     .insta-link,
     .whatsapp-link,
     .order-link{
-        font-size: 14px;
-        text-align: center;
+        font-size: 13px;
     }
 
     .ph-img,
@@ -1533,7 +1526,7 @@
     .insta-img,
     .whatsapp-img,
     .order-img{
-        height: 20px;
+        height: 18px;
     }
 }
 
