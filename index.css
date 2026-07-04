@@ -1484,48 +1484,57 @@
     transform:translateY(0);
 }
     
-/* ==========================
-   Mobile
-========================== */
+/* ===========================
+   Mobile Responsive (Phones)
+   =========================== */
+@media (max-width: 768px) {
 
-@media (max-width:480px){
+    .header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        padding: 10px 0;
+        gap: 10px;
+    }
 
-.header{
-    padding:12px;
-}
+    .c12,
+    .c21{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
 
-.c12,
-.c21{
-    flex-direction:column;
-    gap:12px;
-}
+    .ph-area,
+    .time,
+    .insta,
+    .whatsapp,
+    .order-area{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
 
-.ph-area,
-.time,
-.insta,
-.whatsapp,
-.order-area{
-    width:100%;
-    justify-content:center;
-}
+    .ph-link,
+    .time-span,
+    .insta-link,
+    .whatsapp-link,
+    .order-link{
+        font-size: 14px;
+        text-align: center;
+    }
 
-.ph-img,
-.time-img,
-.insta-img,
-.whatsapp-img,
-.order-img{
-    height:20px;
-}
-
-.ph-link,
-.insta-link,
-.whatsapp-link,
-.order-link,
-.time-span{
-    font-size:13px;
-    text-align:center;
-}
-
+    .ph-img,
+    .time-img,
+    .insta-img,
+    .whatsapp-img,
+    .order-img{
+        height: 20px;
+    }
 }
 
 
