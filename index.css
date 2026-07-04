@@ -2554,3 +2554,72 @@ align-items: center;
     }
 
 }
+
+@media (max-width:768px){
+
+    .customer-area{
+        text-align:center;
+        padding:40px 20px 20px;
+    }
+
+    .customer{
+        font-size:30px;
+        line-height:1.4;
+    }
+
+    .area{
+        width:90%;
+        margin:10px auto;
+        font-size:16px;
+        line-height:1.6;
+    }
+
+    .gallery-section{
+        display:grid;
+        grid-template-columns:repeat(2,1fr);
+        gap:20px;
+        padding:20px;
+    }
+
+    .anime1,
+    .anime2,
+    .anime3,
+    .anime4,
+    .anime5,
+    .anime6,
+    .anime7,
+    .anime8,
+    .anime9{
+        width:100%;
+        text-align:center;
+    }
+
+    .anime-img,
+    .anime-img1,
+    .anime-img2,
+    .anime-img3,
+    .anime-img4,
+    .anime-img5,
+    .anime-img6,
+    .anime-img7,
+    .anime-img8{
+        width:100%;
+        height:220px;
+        object-fit:cover;
+        border-radius:10px;
+    }
+
+    .anime11,
+    .anime22,
+    .anime33,
+    .anime44,
+    .anime55,
+    .anime66,
+    .anime77,
+    .anime88,
+    .anime99{
+        margin-top:10px;
+        font-size:15px;
+    }
+
+}
