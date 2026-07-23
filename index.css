@@ -1901,6 +1901,7 @@
     .track-search input {
         width: 100%;
         height: 75px;
+        padding: 10px 15px;
         box-sizing: border-box;
     }
 
